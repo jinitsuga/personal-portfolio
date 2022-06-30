@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+}
+.img-container {
+  display: block;
+  height: 200px;
+  padding: 25px;
+  margin: 10px;
+  width: 250px;
+  border: solid 1px;
+  background-image: url("./woman.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
