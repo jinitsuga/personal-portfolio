@@ -1,0 +1,22 @@
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  max-width: 710px;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 710px;
+}
+.project-container {
+  height: 250px;
+  width: 225px;
+  border: solid 1px;
+  margin: 20px;
+}

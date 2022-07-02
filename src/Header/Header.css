@@ -58,6 +58,9 @@ header {
 li > a {
   text-decoration: none;
 }
+li > a:hover {
+  border-bottom: solid 4px;
+}
 ul {
   padding: 0;
 }

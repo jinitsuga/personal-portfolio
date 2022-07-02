@@ -24,7 +24,9 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <i class="devicon-linkedin-plain"></i>
+            <a href="https://github.com/jinitsuga">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
           </li>
         </ul>
       </div>
