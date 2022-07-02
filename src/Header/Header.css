@@ -47,14 +47,23 @@ header {
 }
 .about-title {
   margin-left: 15px;
+  font-size: 26px;
 }
 .about-text {
   max-width: 350px;
+  max-height: 155px;
   margin: 15px;
+  font-size: 18px;
 }
 li > a {
   text-decoration: none;
 }
 i {
   font-size: 28px;
+}
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 }
