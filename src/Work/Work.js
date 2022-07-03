@@ -8,16 +8,16 @@ export default function Work() {
       <h3 className="work-title">Some of my work</h3>
       <div className="projects-container">
         <div className="project-container">
-          <Project />
+          <Project img={require("../images/project.jpg")} />
         </div>
         <div className="project-container">
-          <Project />
+          <Project img="../images/smiles.jpg" />
         </div>
         <div className="project-container">
-          <Project />
+          <Project img="../images/landscape.jpg" />
         </div>
         <div className="project-container">
-          <Project />
+          <Project img="" />
         </div>
       </div>
     </section>

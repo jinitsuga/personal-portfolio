@@ -11,3 +11,16 @@ ul {
   justify-content: space-between;
   padding: 5px;
 }
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: auto;
+}
+.project-img {
+  width: 200px;
+
+  object-fit: contain;
+}

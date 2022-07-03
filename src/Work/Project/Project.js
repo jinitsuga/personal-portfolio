@@ -4,7 +4,7 @@ import "./Project.css";
 export default function Project(props) {
   return (
     <div className="project">
-      <img className="project-img" src={props.img}></img>
+      <img className="project-img" src={props.img} alt="project image"></img>
       <div className="title-links">
         <h3>Project title</h3>
         <ul>
