@@ -5,22 +5,25 @@
 ul {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  width: 75px;
 }
 .title-links {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  width: 275px;
 }
 .project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 300px;
   height: auto;
+  box-shadow: 1px 1px 5px;
 }
 .project-img {
-  width: 200px;
-
-  object-fit: contain;
+  width: 300px;
+  box-shadow: 0px 0px 5px;
+  object-fit: fill;
 }

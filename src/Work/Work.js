@@ -11,13 +11,13 @@ export default function Work() {
           <Project img={require("../images/project.jpg")} />
         </div>
         <div className="project-container">
-          <Project img="../images/smiles.jpg" />
+          <Project img={require("../images/smiles.jpg")} />
         </div>
         <div className="project-container">
-          <Project img="../images/landscape.jpg" />
+          <Project img={require("../images/landscape.jpg")} />
         </div>
         <div className="project-container">
-          <Project img="" />
+          <Project img={require("../images/memes.jpg")} />
         </div>
       </div>
     </section>
