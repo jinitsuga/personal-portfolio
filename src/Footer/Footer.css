@@ -9,12 +9,26 @@ footer {
 .footer-img {
   width: 350px;
   height: 300px;
+  object-fit: fill;
+  margin: 35px;
 }
 .contact-info {
   max-width: 350px;
-  margin-right: 5px;
+  margin-left: 25px;
 }
 .devicon-github-original {
   font-size: 36px;
   color: white;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  align-items: center;
+  width: 100px;
+}
+.contact-info > h3 {
+  font-family: "BioRhyme", serif;
+  font-size: 28px;
+  letter-spacing: -1.75px;
 }

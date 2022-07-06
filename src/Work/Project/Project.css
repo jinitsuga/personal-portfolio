@@ -1,6 +1,6 @@
 .link-icon {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
 }
 ul {
   display: flex;
@@ -26,4 +26,7 @@ ul {
   width: 300px;
   box-shadow: 0px 0px 5px;
   object-fit: fill;
+}
+.project:hover {
+  box-shadow: 2px 2px 10px;
 }

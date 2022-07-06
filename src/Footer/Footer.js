@@ -12,16 +12,22 @@ export default function Footer() {
         </p>
         <div className="contact-details">
           <p> email: zomegalul@gmail.com </p>
+          <p>discord: Jin#6139</p>
           <ul className="links">
             <li>
               <a href="https://github.com/jinitsuga">
                 <i className="devicon-github-original"></i>
               </a>
             </li>
+            <li>
+              <a href="">
+                <i class="devicon-linkedin-plain colored"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
-      <img className="footer-img"></img>
+      <img className="footer-img" src={require("../images/doge.jpg")}></img>
     </footer>
   );
 }
